@@ -1,0 +1,8 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Black.NoTitleBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/app_background</item>
+    </style>
+</resources>

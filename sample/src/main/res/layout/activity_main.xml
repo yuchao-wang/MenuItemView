@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:MenuItemViewHorizontal="http://schemas.android.com/apk/res-auto"
+    xmlns:MenuItemViewVertical="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <wang.yuchao.android.library.view.menuitem.MenuItemViewHorizontal
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        MenuItemViewHorizontal:item_hint_img="@color/blue"
+        MenuItemViewHorizontal:item_hint_img_background="@color/green"
+        MenuItemViewHorizontal:item_hint_img_visible="true"
+        MenuItemViewHorizontal:item_hint_text="测试1"
+        MenuItemViewHorizontal:item_hint_text_visible="true"
+        MenuItemViewHorizontal:item_icon="@color/green"
+        MenuItemViewHorizontal:item_icon_background="@color/red"
+        MenuItemViewHorizontal:item_icon_visible="true"
+        MenuItemViewHorizontal:item_text="哈哈"/>
+
+    <wang.yuchao.android.library.view.menuitem.MenuItemViewHorizontal
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1px"
+        MenuItemViewHorizontal:item_hint_img_background="@color/red"
+        MenuItemViewHorizontal:item_hint_text="测试2"
+        MenuItemViewHorizontal:item_icon="@color/red"
+        MenuItemViewHorizontal:item_text="嘿嘿"/>
+
+    <wang.yuchao.android.library.view.menuitem.MenuItemViewHorizontal
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1px"
+        MenuItemViewHorizontal:item_hint_img_visible="false"
+        MenuItemViewHorizontal:item_hint_text="测试"
+        MenuItemViewHorizontal:item_icon_visible="false"
+        MenuItemViewHorizontal:item_text="哈哈"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1px"
+        android:orientation="horizontal">
+
+        <wang.yuchao.android.library.view.menuitem.MenuItemViewVertical
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            MenuItemViewVertical:text="微信"/>
+
+        <wang.yuchao.android.library.view.menuitem.MenuItemViewVertical
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1px"
+            android:layout_weight="1"
+            MenuItemViewVertical:icon_res="@color/red"
+            MenuItemViewVertical:text="QQ"/>
+
+        <wang.yuchao.android.library.view.menuitem.MenuItemViewVertical
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1px"
+            android:layout_weight="1"
+            MenuItemViewVertical:icon_res="@color/green"
+            MenuItemViewVertical:text="新浪"/>
+    </LinearLayout>
+</LinearLayout>

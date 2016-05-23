@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MenuItemViewLibrary</string>
+
+    <string name="default_text">DefaultText</string>
+</resources>

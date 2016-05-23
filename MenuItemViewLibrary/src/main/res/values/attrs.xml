@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MenuItemViewVertical">
+        <attr name="icon_res" format="reference"/>
+        <attr name="icon_background" format="reference"/>
+
+        <attr name="text" format="string|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="MenuItemViewHorizontal">
+        <attr name="item_icon" format="reference"/>
+        <attr name="item_icon_background" format="reference"/>
+        <attr name="item_icon_visible" format="boolean"/>
+
+        <attr name="item_text" format="string|reference"/>
+
+        <attr name="item_hint_text" format="string|reference"/>
+        <attr name="item_hint_text_visible" format="boolean"/>
+
+        <attr name="item_hint_img" format="reference"/>
+        <attr name="item_hint_img_background" format="reference"/>
+        <attr name="item_hint_img_visible" format="boolean"/>
+    </declare-styleable>
+
+    <!--<attr name="item_icon_visible">-->
+    <!--<enum name="visible" value="0"/>-->
+    <!--<enum name="invisible" value="1"/>-->
+    <!--<enum name="gone" value="2"/>-->
+    <!--</attr>-->
+
+</resources>
