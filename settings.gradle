@@ -1,1 +1,1 @@
-include ':sample', ':MenuItemViewLibrary'
+include ':Sample', ':MenuItemViewLibrary'
