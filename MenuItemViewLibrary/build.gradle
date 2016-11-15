@@ -37,7 +37,7 @@ ext {
     siteUrl = 'https://github.com/yuchao-wang/MenuItemView'
     gitUrl = 'https://github.com/yuchao-wang/MenuItemView.git'
 
-    libraryVersion = '1.0.1'
+    libraryVersion = '1.0.2'
 
     developerId = 'wangyuchao'
     developerName = 'yuchao-wang'
