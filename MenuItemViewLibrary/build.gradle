@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 23
+    compileSdkVersion 19
     buildToolsVersion "23.0.2"
 
     defaultConfig {
@@ -19,7 +19,7 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
 }
 
@@ -38,7 +38,7 @@ ext {
     siteUrl = 'https://github.com/yuchao-wang/MenuItemView'
     gitUrl = 'https://github.com/yuchao-wang/MenuItemView.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.1'
 
     developerId = 'wangyuchao'
     developerName = 'yuchao-wang'
@@ -51,3 +51,6 @@ ext {
 
 apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
 apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
+
+//        ./gradlew install
+//        ./gradlew bintrayUpload
